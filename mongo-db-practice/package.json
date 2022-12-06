@@ -1,0 +1,15 @@
+{
+  "name": "mongo-db-practice",
+  "version": "1.0.0",
+  "main": "mongo.js",
+  "devDependencies": {
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon mongo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
