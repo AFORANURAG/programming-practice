@@ -55,7 +55,6 @@ let i=1
 while(i<position-1){
 current=current.next
 i++
-
 }  
 let temp=current.next.next
 this.length--

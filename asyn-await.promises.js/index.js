@@ -66,7 +66,16 @@ try {
 }
 }
 func()
+let data=new Date().getUTCDate()
+console.log(data)
+setTimeout(()=>{
+setTimeout(()=>{
+console.log("delay is the minimum time not guaranteed time")
+},3000)
+},3000)
 
-
-
+setTimeout(()=>{
+let data1=new Date().getUTCDate()
+console.log(data-data1)
+},3000)
 
