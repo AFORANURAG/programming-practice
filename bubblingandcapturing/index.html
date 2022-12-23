@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling and Capturing </title>
+</head>
+<body>
+
+<div id="parentdiv" >
+<button id="child">
+click me please
+</button>
+</div>
+
+<script defer>
+
+
+document.getElementById("parentdiv").addEventListener("click" ,()=>{
+   console.log("parent is invoked")
+})
+
+document.getElementById("child").addEventListener("click" ,()=>{
+   console.log("child is invoked")
+})
+
+document.querySelector("body").addEventListener("click" ,()=>{
+   console.log("body is invoked")
+})
+
+
+</script>
+</body>
+</html>
